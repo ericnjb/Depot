@@ -39,6 +39,44 @@
 	font-size: small;
 }
 
+/* Styles for the cart in the sidebar */
+#cart, #cart table {
+	font-size: smaller;
+	color: white;
+}
+
+#cart table {
+	border-top: 1px dotted #595;
+	border-bottom: 1px dotted #595;
+	margin-bottom: 10px;
+}
+
+/* Styles for the cart in the main page */
+#cart, #cart table {
+	font-size: smaller;
+	color: white;
+}
+
+#cart table {
+	border-top: 1px dotted #595;
+	border-bottom: 1px dotted #595;
+	margin-bottom: 10px;
+}
+
+/* Styles for the cart in the main page */
+#store .cart_title {
+	font: 120% bold;
+}
+
+#store .item_price, #store .total_line {
+	text-align:right;
+}
+
+#store .total_line .total_cell {
+	font-weight:bold;
+	border-top: 1px solid #595;
+}
+
 #store #notice {
         color: #000;
         border: 2px solid red;
@@ -151,29 +189,4 @@
 
 #store .entry form, #store .entry form div {
 	display:inline;
-}
-
-#store .cart_title {
-	font: 120% bold;
-}
-
-#store .item_price, #store .total_line {
-	text-align:right;
-}
-
-#store .total_line .total_cell {
-	font-weight:bold;
-	border-top: 1px solid #595;
-}
-
-/* Styles for the cart in the sidebar */
-#cart, #cart table {
-	font-size: smaller;
-	color: white;
-}
-
-#cart table {
-	border-top: 1px dotted #595;
-	border-bottom: 1px dotted #595;
-	margin-bottom: 10px;
 }
