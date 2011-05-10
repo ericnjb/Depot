@@ -16,10 +16,9 @@
 		<div id="side">
 			<%= render @cart if @cart %>
 
-			<a href="http://www....">Home</a><br />
-			<a href="http://www..../faq">Questions</a><br />
-			<a href="http://www..../news">News</a><br />
-			<a href="http://www..../contact">Contact</a><br />
+			<%= link_to 'Store', store_path %><br />
+			<%= link_to 'Products', products_path %><br />
+			<%= link_to 'Orders', orders_path %>
 		</div>
 	</div>
 	<div id="main">

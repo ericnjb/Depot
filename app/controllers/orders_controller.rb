@@ -31,6 +31,8 @@ class OrdersController < ApplicationController
       return
     end
     
+    @checkout = true
+    
     @order = Order.new
 
     respond_to do |format|
