@@ -1,5 +1,4 @@
-<div id="cart">
-	<% unless cart.line_items.empty? %>
+<%= hidden_div_if(cart.line_items.empty?, :id => "cart") do %>
 	<div class="cart_title">Your Cart</div>
 	<table>
 		<%= render(cart.line_items) %>
@@ -10,7 +9,7 @@
 		</tr>
 	</table>
 	
+	<%= button_to 'Checkout', new_order_path, :method => :get %>
 	<%= button_to 'Empty cart', cart, :method => :delete,
 		:confirm => 'Are you sure?' %>
-	<% end %>
-</div>
+<% end %>
