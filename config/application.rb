@@ -38,5 +38,16 @@ module Depot
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+    
+    config.action_mailer.delivery_method = :smtp
+    config.action_mailer.smtp_settings = {
+      :address        => "smpt.gmail.com",
+      :port           => 587,
+      :domain         => "domain.of.sender.net",
+      :authentication => "plain",
+      :user_name      => "eric",
+      :password       => "secret",
+      :enable_starttls_auto => true
+    }
   end
 end
