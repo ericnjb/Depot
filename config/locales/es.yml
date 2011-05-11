@@ -1,11 +1,11 @@
 es:
   layouts:
-  	application:
-  		title:        "Publicaciones de Pragmatic"
-  		home:         "Inicio"
-  		questions:    "Preguntas"
-  		news:         "Noticias"
-  		contact:      "Contacto"
+    application:
+      title:        "Publicaciones de Pragmatic"
+      home:         "Inicio"
+      questions:    "Preguntas"
+      news:         "Noticias"
+      contact:      "Contacto"
   store:
     index:
       title_html:   "Su Cat&aacute;logo de Pragmatic"
@@ -28,7 +28,7 @@ es:
       legend:       "Por favor, introduza sus datos"
     form:
       name:         "Nombre"
-      address_html: "Direcci&eacute;n"
+      address_html: "Direcci&oacute;n"
       email:        "E-mail"
       pay_type:     "Pagar con"
       pay_prompt_html:  "Seleccione un m&eacute;todo de pago"
