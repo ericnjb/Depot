@@ -17,8 +17,14 @@
 			<%= render @cart if @cart %>
 
 			<%= link_to 'Store', store_path %><br />
-			<%= link_to 'Products', products_path %><br />
-			<%= link_to 'Orders', orders_path %>
+			<% if session[:user_id] %>
+				<%= link_to 'Orders', orders_path %><br />
+				<%= link_to 'Products', products_path %><br />
+				<%= link_to 'Users', users_path %><br />
+				<%= button_to 'Log out', logout_path, :method => :delete %>
+			<% else %>
+				<%= link_to 'Log in', login_url %>
+			<% end %>
 		</div>
 	</div>
 	<div id="main">

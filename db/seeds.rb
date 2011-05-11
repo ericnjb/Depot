@@ -32,3 +32,9 @@ Product.create(:title => 'A Game of Thrones (A Song of Ice and Fire, Book 1)',
       </p>},
   :image_url => '/images/game_of_thrones.jpg',
   :price => 8.95)
+  
+User.delete_all
+
+User.create(:name => 'admin',
+  :password => 'admin',
+  :password_confirmation => 'admin')
