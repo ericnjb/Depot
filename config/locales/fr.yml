@@ -1,0 +1,36 @@
+fr:
+  layouts:
+    application:
+      title:        "Publications Pragmatique"
+      home:         "Accueil "
+      questions:    "Questions"
+      news:         "Nouvelles"
+      contact:      "Contactez"
+  store:
+    index:
+      title:   "Votre catalogue pragmatique "
+      add:     "Ajouter au panier"
+  carts:
+    cart:
+      title:        "Votre panier "
+      empty:        "Vider le panier"
+      checkout:     "Commander"
+  number:
+    currency:
+      format:
+        unit:       "$"
+        precision:  2
+        separator:  "."
+        delimiter:  ","
+        format:     "%u%n"
+  orders:
+    new:
+      legend:       "S'il vous plaît entrer vos coordonnées"
+    form:
+      name:         "Nom"
+      address_html: "Adresse"
+      email:        "E-mail"
+      pay_type:     "Payer avec"
+      pay_prompt_html:  "Sélectionner une méthode de paiement"
+      submit:       "Passer commande"
+  thanks:           "Merci pour votre commande"
